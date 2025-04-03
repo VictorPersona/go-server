@@ -1,4 +1,5 @@
 
+
 # Go Server
 
 This is a simple HTTP server written in Go. It serves static files and provides basic functionality for handling HTTP requests.
@@ -11,16 +12,15 @@ This is a simple HTTP server written in Go. It serves static files and provides 
 
 ## Project Structure
 
-
+```
 /usr/local/go/src/go-server/
 ├── go-server
 ├── main.go
 ├── static/
-│ ├── form.html
-│ └── index.html
+│   ├── form.html
+│   └── index.html
 └── README.md
-
-
+```
 
 ### File Descriptions
 
@@ -32,7 +32,8 @@ This is a simple HTTP server written in Go. It serves static files and provides 
 ## Endpoints
 
 ### `/`
-Serves static files from the `static` directory.
+- **Method**: GET
+- **Response**: Serves static files from the `static` directory.
 
 ### `/hello`
 - **Method**: GET
