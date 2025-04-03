@@ -1,4 +1,4 @@
-```md
+
 # Go Server
 
 This is a simple HTTP server written in Go. It serves static files and provides basic functionality for handling HTTP requests.
@@ -10,7 +10,7 @@ This is a simple HTTP server written in Go. It serves static files and provides 
 - Processes form submissions via the `/form` endpoint.
 
 ## Project Structure
-```
+
 
 /usr/local/go/src/go-server/
 ├── go-server
@@ -20,7 +20,7 @@ This is a simple HTTP server written in Go. It serves static files and provides 
 │ └── index.html
 └── README.md
 
-````
+
 
 ### File Descriptions
 
@@ -66,4 +66,4 @@ Serves static files from the `static` directory.
 ## License
 
 This project is licensed under the MIT License.
-````
+
